@@ -1,0 +1,5 @@
+To add/upload folder from local to remote - after cloning is to run - use cmd:
+
+- git add <folder>
+- git commit -m "adding <folder>"
+- git push
