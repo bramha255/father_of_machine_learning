@@ -4,6 +4,7 @@ To add/upload folder from local to remote - after cloning is to run - use cmd:
 - git commit -m "adding <folder>"
 - git push
 
+<<<<<<< HEAD
 create a new repository on the command line
 '''
 echo "# Streamlit" >> README.md
@@ -21,3 +22,34 @@ git remote add origin https://github.com/bramha255/Streamlit.git
 git branch -M main
 git push -u origin main
 '''
+=======
+If theres a empty repo in git and source code in local then use this to push the files to empty repository
+- https://stackoverflow.com/questions/17291995/push-existing-project-into-github
+
+$ git init
+Initialized empty Git repository in D:/project/Webapp_python/.git/
+
+#to add remote to local
+$ git remote add origin https://github.com/bramha255/Streamlit.git
+
+#branch
+$ git branch -M main
+
+#to add all the files except one (i.e streamlit folder)
+$ git add -- . ':!streamlit'
+
+#commit to push
+$ git commit -m "Initial Commit"
+
+#add remote
+$ git remote add github https://github.com/bramha255/Streamlit.git
+
+#to check if everything id link 
+$ git remote -v
+
+#you should get below output
+github  https://github.com/bramha255/Streamlit.git (fetch)
+github  https://github.com/bramha255/Streamlit.git (push)
+origin  https://github.com/bramha255/Streamlit.git (fetch)
+origin  https://github.com/bramha255/Streamlit.git (push)
+>>>>>>> 8f20e84278d78a9dc6e50a43bf7201d1c48a9ccc
