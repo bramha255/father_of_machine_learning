@@ -53,3 +53,9 @@ github  https://github.com/bramha255/Streamlit.git (push)
 origin  https://github.com/bramha255/Streamlit.git (fetch)
 origin  https://github.com/bramha255/Streamlit.git (push)
 >>>>>>> 8f20e84278d78a9dc6e50a43bf7201d1c48a9ccc
+
+
+# If you made a change in local and want to reflect in remote
+run: 
+	git add filename.txt && git commit -m "Reason for the commit/add"
+	git push
