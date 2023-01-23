@@ -21,4 +21,4 @@ Important concept:
 - Random Forest.
 - K means Clustering.
 - Hierarchical Clustering.
-- Apriori
+- [Apriori](https://github.com/bramha255/father_of_machine_learning/tree/main/Unsupervised_Learning/Aprori)
