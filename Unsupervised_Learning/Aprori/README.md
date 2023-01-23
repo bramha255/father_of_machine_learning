@@ -1,4 +1,4 @@
-<h1>Aprori Algorithm</h>
+<h1>Aprori Algorithm</h1>
   
  <p>
  Apriori algorithm was the first algorithm that was proposed for frequent itemset mining.
