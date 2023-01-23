@@ -4,6 +4,11 @@
 <b>
 </p>
 
+This repo has been divided as 
+1. [Supervised learning](https://github.com/bramha255/father_of_machine_learning/tree/main/Tabular%20ML)
+2. [Unsupervised learing](https://github.com/bramha255/father_of_machine_learning/tree/main/Unsupervised_Learning)
+3. Reinforcement learning - yet to be created
+
 # Machine learning:
 
 Important concept:
@@ -16,4 +21,4 @@ Important concept:
 - Random Forest.
 - K means Clustering.
 - Hierarchical Clustering.
-- Apriori.
+- Apriori
